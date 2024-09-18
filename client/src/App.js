@@ -1,4 +1,7 @@
 import React, {useState, useEffect} from 'react'
+import Main from './index';
+import HomePage from './homepage';
+import { Link } from 'react-router-dom';
 function App(){
 
     const [data, setData] = useState([{}])
@@ -15,6 +18,7 @@ function App(){
     }, [])
     return (
       <div>
+        {/*
         {(typeof data.members ==='undefined') ? (
           <p>Loading...</p>
         ) : (
@@ -22,8 +26,17 @@ function App(){
             <p key={i}>{member}</p>
           ))
         )}
-
+        
+        <Link to ="/homepage">
+          <button variant = "outlined">
+            homepage
+          </button>
+        </Link>
+        */}
+        <Main />
+        
       </div>
+      
     )
 }
 export default App

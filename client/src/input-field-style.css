@@ -1,0 +1,23 @@
+.input-field {
+    background-color: #292929;
+    border-radius: 30px;
+    box-shadow: 5px 4px 4px #00000082;
+    height: 106px;
+    position: relative;
+    width: 1066px;
+}
+
+.input-field .text-wrapper {
+    color: #ffffff;
+    font-family: "Anonymous Pro-Regular", Helvetica;
+    font-size: 36px;
+    font-weight: 400;
+    left: 395px;
+    letter-spacing: 0;
+    line-height: normal;
+    opacity: 0.82;
+    position: absolute;
+    text-align: center;
+    top: 36px;
+    white-space: nowrap;
+}
